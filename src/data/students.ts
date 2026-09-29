@@ -1,0 +1,43 @@
+import type { Student } from '../types';
+
+// DATA SISWA 12 F2 (36 SISWA)
+// TODO: nanti ini bakal diganti fetch dari Supabase (tabel `students`)
+// pas fitur Auth NISN & backend udah jalan.
+export const STUDENTS_12F2: Student[] = [
+  { nisn: '0091963852', name: 'ALFINAZ SYAHDAN RIZKI' },
+  { nisn: '0088436719', name: 'ANUGRAH MARDANA PUTRA' },
+  { nisn: '0000000000', name: 'ARIEF SETIAWAN' },
+  { nisn: '0096200494', name: 'ASYIFA REGINA FANIARA' },
+  { nisn: '0093821893', name: 'AULIA NAS SYIFA' },
+  { nisn: '0098045373', name: 'AYUTARIE OKTAVIA' },
+  { nisn: '0094685245', name: 'BARRA ABHIMANYU MUMTAZ' },
+  { nisn: '0088569028', name: 'DHELVIN YOSEPH KRISTIAN LEGE' },
+  { nisn: '0094148893', name: 'FAJAR HAMBALI' },
+  { nisn: '0095895715', name: 'FARID GHEYSAR WIJAYA' },
+  { nisn: '0092297879', name: 'FARREL RADITYA PUTRA' },
+  { nisn: '0096623898', name: 'JASON AL - ZAROS' },
+  { nisn: '0098818208', name: 'KEANU FEBRIAN' },
+  { nisn: '0095786366', name: 'KHAIRA FAJRIANI AMRI' },
+  { nisn: '0063623730', name: 'M IVAN' },
+  { nisn: '0092799098', name: 'MOCH ASYRAF ATHITHABRAANI' },
+  { nisn: '0087851993', name: 'MOHAMAD TENGKU RIANSYAH' },
+  { nisn: '0086259512', name: 'MUHAMAD OKTA RIDWAN PRATAMA' },
+  { nisn: '0092541130', name: 'MUHAMAD TARIQ RIJKI AL FAKTH' },
+  { nisn: '0098555219', name: 'MUHAMMAD RAFA AGHISNAL HAYAT' },
+  { nisn: '0094574613', name: 'NADYA SHINTA RAHMANDA' },
+  { nisn: '0091312820', name: 'NAZWA ALIF SANTIKA' },
+  { nisn: '0086184654', name: 'NOVIKA PUTRI FAUZIAH' },
+  { nisn: '0097542450', name: 'NUR RANI HAMIDAH' },
+  { nisn: '0085738250', name: 'PANJI KUSUMA PIRTATULLOH' },
+  { nisn: '0093116000', name: 'PERDANA TRI UTAMA' },
+  { nisn: '0097836456', name: 'PUTIH AYU ATHIRAH NURGHAISANI' },
+  { nisn: '0095893632', name: 'RAHMA' },
+  { nisn: '0081351617', name: 'RAISYA CAHYA KAMILA' },
+  { nisn: '0095179044', name: 'REHAN ABDUL FATAH' },
+  { nisn: '0084415929', name: 'REIHAN RHADITYA PRATAMA' },
+  { nisn: '0081506924', name: 'SALMAN ALAWl AL FARIDZI' },
+  { nisn: '0094132056', name: 'SALWA AULIA PUTRI' },
+  { nisn: '0097559052', name: 'SANDY AHMAD DARMAWAN' },
+  { nisn: '0094538820', name: 'SITI PUTRI ANISA' },
+  { nisn: '0093913463', name: 'ZASKYA AULIA ZEIN' },
+];
